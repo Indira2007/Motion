@@ -76,6 +76,7 @@ export function Footer() {
             <a href="#" className="hover:text-white transition-colors">{footer.bottom.terms}</a>
             <a href="#" className="hover:text-white transition-colors">{footer.bottom.refund}</a>
           </div>
+          <div>Gurukrupa Motion Elite Academy</div>
           <div>
             {footer.bottom.affiliation} &copy; <Suspense fallback={null}><CopyrightYear /></Suspense>
           </div>
