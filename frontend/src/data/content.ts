@@ -5,7 +5,7 @@ export const content = {
     languages: ["EN", "हिं", "తె"]
   },
   navbar: {
-    logo: "Motion",
+    logo: "Motion Academy, Siddipet ",
     links: ["Courses", "Results", "Faculty", "Test series", "Campuses", "Admissions"],
     studentLogin: "Student login",
     applyNow: "Apply now"
@@ -76,7 +76,7 @@ export const content = {
     { question: "How do you support academically weak students?", answer: "We provide extra remedial classes and personalized mentoring." }
   ],
   footer: {
-    info: "Motion - 2X Learning Experience. Dedicated to shaping the future of young aspirants through quality education.",
+    info: "Motion Academy, Siddipet  - 2X Learning Experience. Dedicated to shaping the future of young aspirants through quality education.",
     programmes: ["Class 11 Integrated", "Class 12 Integrated", "Dropper Batches", "Foundation"],
     quickLinks: ["About Us", "Contact", "Careers", "Student Portal"],
     social: ["Facebook", "Twitter", "Instagram", "YouTube"],

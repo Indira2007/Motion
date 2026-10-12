@@ -31,10 +31,10 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div className="space-y-4">
-            <div className="text-2xl font-bold text-white mb-4">Motion</div>
+            <div className="text-2xl font-bold text-white mb-4">Motion Academy, Siddipet </div>
             <p className="text-sm leading-relaxed">{footer.info}</p>
           </div>
-          
+
           <div>
             <h3 className="text-white font-bold mb-4 uppercase tracking-wide text-sm">Programmes</h3>
             <ul className="space-y-2">
@@ -45,7 +45,7 @@ export function Footer() {
               ))}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-white font-bold mb-4 uppercase tracking-wide text-sm">Quick Links</h3>
             <ul className="space-y-2">
@@ -56,7 +56,7 @@ export function Footer() {
               ))}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-white font-bold mb-4 uppercase tracking-wide text-sm">Connect With Us</h3>
             <ul className="flex flex-wrap gap-4">

@@ -33,7 +33,6 @@ export function Faculty() {
     //     </div>
     //   </div>
     // </section>
-    <>
-    </>
+    <></>
   );
 }

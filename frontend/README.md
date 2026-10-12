@@ -1,4 +1,4 @@
-# Motion Coaching Website
+# Motion Academy, Siddipet  Coaching Website
 
 A responsive, single-page marketing site for an intermediate college with IIT-JEE/NEET coaching. 
 

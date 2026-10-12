@@ -5,8 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Motion | Intermediate + IIT-JEE / NEET Prep",
-  description: "Motion - 2X Learning Experience for IIT-JEE and NEET",
+  title: "Motion Academy, Siddipet  | IntermediatFe + IIT-JEE / NEET Prep",
 };
 
 export default function RootLayout({
