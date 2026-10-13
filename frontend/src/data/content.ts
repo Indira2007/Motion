@@ -2,16 +2,15 @@ export const content = {
   topBar: {
     helpline: "+91 90636 74061",
     scholarshipText: "Scholarship test 1st week of November, 2026 - Register",
-    languages: ["EN", "हिं", "తె"]
   },
   navbar: {
     logo: "Motion Academy, Siddipet ",
     links: ["Courses", "Results", "Faculty", "Test series", "Campuses", "Admissions"],
-    studentLogin: "Student login",
+
     applyNow: "Apply now"
   },
   hero: {
-    h1: "Intermediate + IIT-JEE / NEET prep under one roof",
+    h1: "IIT-JEE / NEET Coaching",
     sub: "Exclusive Study Material, Experienced Faculty, and Real Time Guidance.",
     ctas: {
       bookCounselling: "Book free counselling",
@@ -76,10 +75,11 @@ export const content = {
     { question: "How do you support academically weak students?", answer: "We provide extra remedial classes and personalized mentoring." }
   ],
   footer: {
-    info: "Motion Academy, Siddipet  - 2X Learning Experience. Dedicated to shaping the future of young aspirants through quality education.",
-    programmes: ["Class 11 Integrated", "Class 12 Integrated", "Dropper Batches", "Foundation"],
-    quickLinks: ["About Us", "Contact", "Careers", "Student Portal"],
-    social: ["Facebook", "Twitter", "Instagram", "YouTube"],
+    info: "Motion Academy, Siddipet  - Opposite Block Office, BJR Circle, Hyderabad Road, SIDDIPET",
+    phone: "+91 9063674061, 9440894476",
+    programmes: ["Enthuse Batch", "Nurture Batch", "Dropper & Achiever Batches"],
+    quickLinks: ["About Us", "Contact", "Careers"],
+    social: ["Facebook", "Twitter", "Instagram", "Whatsapp"],
     bottom: {
       privacy: "Privacy Policy",
       terms: "Terms of Service",

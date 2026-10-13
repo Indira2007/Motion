@@ -15,13 +15,10 @@ export function Footer() {
       {/* Final CTA Band */}
       <div className="bg-blue-900 border-b border-blue-800">
         <div className="max-w-7xl mx-auto px-4 py-12 md:py-16 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">Start your JEE / NEET journey this year</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">REGISTER FOR MTSE EXAM</h2>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <button className="px-8 py-3 bg-orange-500 text-white font-medium rounded-lg hover:bg-orange-600 transition-colors shadow-md">
-              Apply now
-            </button>
-            <button className="px-8 py-3 border border-white text-white font-medium rounded-lg hover:bg-blue-800 transition-colors">
-              Talk to counsellor
+              Register Now
             </button>
           </div>
         </div>
@@ -33,6 +30,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="text-2xl font-bold text-white mb-4">Motion Academy, Siddipet </div>
             <p className="text-sm leading-relaxed">{footer.info}</p>
+            <p className="text-sm leading-relaxed pt-4">Phone: {footer.phone}</p>
           </div>
 
           <div>

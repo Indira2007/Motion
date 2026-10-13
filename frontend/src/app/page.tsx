@@ -1,4 +1,4 @@
-import { TopBar } from "@/components/TopBar";
+// import { TopBar } from "@/components/TopBar";
 import { NavBar } from "@/components/NavBar";
 import { Hero } from "@/components/Hero";
 import { Stats } from "@/components/Stats";
@@ -9,14 +9,14 @@ import { Faculty } from "@/components/Faculty";
 import { StudentTools } from "@/components/StudentTools";
 import { AdmissionProcess } from "@/components/AdmissionProcess";
 import { Trust } from "@/components/Trust";
-import { FAQ } from "@/components/FAQ";
+// import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
-import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
+// import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col relative">
-      <TopBar />
+      {/* <TopBar /> */}
       <NavBar />
       <Hero />
       <Stats />
@@ -27,9 +27,9 @@ export default function Home() {
       <StudentTools />
       <AdmissionProcess />
       <Trust />
-      <FAQ />
+      {/* <FAQ /> */}
       <Footer />
-      <FloatingWhatsApp />
+      {/* <FloatingWhatsApp /> */}
     </main>
   );
 }

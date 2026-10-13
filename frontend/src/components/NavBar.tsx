@@ -14,7 +14,7 @@ export function NavBar() {
           <div className="flex-shrink-0 flex items-center">
             <span className="text-2xl font-bold text-blue-900">{navbar.logo}</span>
           </div>
-          
+
           <div className="hidden md:flex space-x-6 items-center">
             {navbar.links.map((link, idx) => (
               <a key={idx} href={`#${link.toLowerCase().replace(/\s+/g, '-')}`} className="text-slate-700 hover:text-blue-900 font-medium transition-colors">
@@ -22,16 +22,13 @@ export function NavBar() {
               </a>
             ))}
           </div>
-          
+
           <div className="hidden md:flex space-x-4 items-center">
-            <button className="px-4 py-2 border border-blue-900 text-blue-900 rounded-lg hover:bg-blue-50 font-medium transition-colors">
-              {navbar.studentLogin}
-            </button>
             <button className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 font-medium transition-colors">
               {navbar.applyNow}
             </button>
           </div>
-          
+
           <div className="md:hidden flex items-center">
             <button onClick={() => setIsOpen(!isOpen)} className="text-slate-700 hover:text-blue-900">
               {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -39,7 +36,7 @@ export function NavBar() {
           </div>
         </div>
       </div>
-      
+
       {/* Mobile menu */}
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-200">
@@ -50,9 +47,6 @@ export function NavBar() {
               </a>
             ))}
             <div className="mt-4 flex flex-col gap-2 px-3">
-              <button className="w-full px-4 py-2 border border-blue-900 text-blue-900 rounded-lg font-medium">
-                {navbar.studentLogin}
-              </button>
               <button className="w-full px-4 py-2 bg-orange-500 text-white rounded-lg font-medium">
                 {navbar.applyNow}
               </button>
